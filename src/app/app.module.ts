@@ -7,11 +7,14 @@ import { SharedModule } from './components/shared/shared.module';
 import { HomeComponent } from './components/home/home.component';
 import { HomeModule } from './components/home/home.module';
 import { CommonModule } from '@angular/common';
+import { SearchComponent } from './components/search/search/search.component';
+import { SearchModule } from './components/search/search.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    SearchComponent,
 
   ],
   imports: [
@@ -19,7 +22,8 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     SharedModule,
     HomeModule,
-    CommonModule
+    CommonModule,
+    SearchModule
 
 
   ],

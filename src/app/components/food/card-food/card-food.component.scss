@@ -1,21 +1,7 @@
-
-ul li a {
-  height: 21.0rem;
-  width: 20rem;
-  border: 1px solid rgba(131, 120, 120, 0.322);
-  border-radius: 1rem;
-  margin: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  color: #128ee2;
-}
-
-
-
 .content {
   padding: 0.8rem 1rem;
   position: relative;
+  cursor: pointer;
 }
 .favorite {
   position: absolute;
@@ -30,26 +16,25 @@ ul li a {
 .product-item-footer {
   justify-content: space-between;
   align-items: center;
-
 }
 .origins {
   flex: 9;
 }
 .origins span {
-  border-radius: 2rem;
-  background-color: whitesmoke;
-
-  font-size: .9rem;
-  color: grey;
-  margin-right:.3rem;
+  font-size: 0.9rem;
+  color: rgb(61, 61, 61);
+  margin-right: 0.3rem;
 }
 .cook-time {
   font-size: 0.8rem;
   flex: 3;
   text-align: right;
 }
-.price{
+.price {
   color: #414141;
-  margin-top: .7rem;
-
+  margin-top: 0.7rem;
+}
+a:hover {
+  background: #ffffff;
+  color: rgb(10, 9, 9);
 }
